@@ -1,8 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import IntroScreen from './views/IntroScreen';
-import MainScreen from './views/MainScreen';
+import { StyleSheet, Text, View,StatusBar } from 'react-native';
+import IntroScreen from './View/IntroScreen';
+import MainScreen from './View/MainScreen'
 
 
 export default function App() {
@@ -19,11 +18,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

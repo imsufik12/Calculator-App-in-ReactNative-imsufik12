@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Hjcalculatorapp",
-    "slug": "Hjcalculatorapp",
+    "name": "calculatorapp",
+    "slug": "snack-9e13d931-4a1f-4d95-b4be-2ce11fb4365c",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,9 +10,6 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,9 +20,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.virajj014.calculatorapp"
+        "backgroundColor": "#ffffff"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
